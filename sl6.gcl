@@ -1,0 +1,3 @@
+Show[Graphics3D[{Opacity[0.5], Red, Cuboid[]}],
+ Graphics3D[{Opacity[0.5], Blue, Sphere[{0.5, 0.5, 0.5}, 1/Sqrt[2]]}],
+  Boxed -> False]

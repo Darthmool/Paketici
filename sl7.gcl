@@ -1,0 +1,15 @@
+dim 30 30
+point A 5 15
+cmark_l A
+point O 15 15
+cmark_b O
+circle k O A
+drawcircle k
+rotate B O -120 A
+cmark_t B
+midpoint S A B
+cmark_lt S
+circle l O S
+drawcircle l
+drawsegment A B
+

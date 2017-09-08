@@ -1,0 +1,66 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 0 0 113 71
+%%BeginProlog
+%%EndProlog
+/Times-Italic findfont
+8 scalefont
+setfont
+0,45 setlinewidth
+
+/ellipse {7 dict begin
+/endangle exch def
+/startangle exch def
+/yradius exch def
+/xradius exch def
+/yC exch def
+/xC exch def
+/savematrix matrix currentmatrix def
+xC yC translate
+xradius yradius scale
+0 0 1 startangle endangle arc
+savematrix setmatrix
+end
+} def
+
+
+% Drawing circle k
+newpath 50,31 34,72 21,98 0,00 360,00 arc 
+stroke
+
+% Marking point A by circle
+newpath 18,47 12,75 1,13 0,00 360,00 arc 
+stroke
+16,49 10,76 moveto
+(A) dup stringwidth pop neg -5,33 rmoveto show
+
+% Marking point B by circle
+newpath 99,16 12,74 1,13 0,00 360,00 arc 
+stroke
+101,14 10,76 moveto
+0 -5,33 rmoveto (B) show
+
+% Marking point C by circle
+newpath 57,05 60,27 1,13 0,00 360,00 arc 
+stroke
+59,03 62,25 moveto
+(C) show
+
+% Marking point D by circle
+newpath 33,42 52,17 1,13 0,00 360,00 arc 
+stroke
+31,44 54,15 moveto
+(D) dup stringwidth pop neg 0 rmoveto show
+
+% Drawing segment A B
+newpath 19,60 12,75 moveto 78,42 -0,00 rlineto stroke
+
+% Drawing segment B C
+newpath 98,40 13,59 moveto -40,61 45,83 rlineto stroke
+
+% Drawing segment C D
+newpath 55,98 59,90 moveto -21,48 -7,36 rlineto stroke
+
+% Drawing segment D A
+newpath 33,02 51,11 moveto -14,15 -37,30 rlineto stroke
+showpage
+%EOF

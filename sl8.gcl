@@ -1,0 +1,37 @@
+dim 40 25
+point A 15 5
+point B 25 15
+point C 18 20
+med s A B
+med l B C
+intersec O s l
+circle k O A
+rotate A O 20.77 A
+rotate B O 20.77 B
+rotate C O 20.77 C
+drawcircle k
+point X 10.5 0
+point Y 10.5 1
+line l X Y
+intersec2 D  D' l k
+line l1 O A
+line l2 O B
+line l3 O C
+line l4 O D
+perp a A l1
+perp b B l2
+perp c C l3
+perp d D l4
+intersec B a b
+intersec C b c
+intersec D c d
+intersec A d a
+cmark_lb A
+cmark_rb B
+cmark_rt C
+cmark_lt D
+drawsegment A B
+drawsegment B C
+drawsegment C D
+drawsegment D A
+
