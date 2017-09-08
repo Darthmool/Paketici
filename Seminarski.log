@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.29)  8 SEP 2017 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.9.8)  8 SEP 2017 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Seminarski.tex
 (./Seminarski.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 29 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 36 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -50,6 +50,10 @@ File: babel.def 2016/02/24 3.9q Babel common definitions
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-croatian/croatian.ldf
 Language: croatian 2014/03/31 v1.3m Croatian support from the babel system
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-serbian/serbian.ldf
+Language: serbian 2005/03/31 v1.0d Serbocroatian support from the babel system
+Package babel Info: Making " an active character on input line 73.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -786,7 +790,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 ]
-Poglavlje 1.
+Glava 1.
 [2
 
 ] [3] [4] [5] [6] [7]
@@ -821,12 +825,12 @@ Package rerunfilecheck Info: File `Seminarski.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 647.
  ) 
 Here is how much of TeX's memory you used:
- 7084 strings out of 494375
- 98857 string characters out of 6164980
- 212132 words of memory out of 5000000
- 10279 multiletter control sequences out of 15000+600000
+ 7145 strings out of 493868
+ 99736 string characters out of 6157423
+ 214124 words of memory out of 5000000
+ 10345 multiletter control sequences out of 15000+600000
  11051 words of font info for 41 fonts, out of 8000000 for 9000
- 350 hyphenation exceptions out of 8191
+ 766 hyphenation exceptions out of 8191
  42i,8n,28p,1063b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Seminarski.dvi (16 pages, 75296 bytes).
+Output written on Seminarski.dvi (16 pages, 75340 bytes).
