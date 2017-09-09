@@ -12,4 +12,6 @@ cmark_lt S
 circle l O S
 drawcircle l
 drawsegment A B
+drawsegment O A
+drawsegment O S
 

@@ -5,7 +5,7 @@
 /Times-Italic findfont
 8 scalefont
 setfont
-0,45 setlinewidth
+0.45 setlinewidth
 
 /ellipse {7 dict begin
 /endangle exch def
@@ -24,45 +24,51 @@ end
 
 
 % Marking point A by circle
-newpath 14,17 42,52 1,13 0,00 360,00 arc 
+newpath 14.17 42.52 1.13 0.00 360.00 arc 
 stroke
-11,34 42,52 moveto
-(A) dup stringwidth pop neg -2,67 rmoveto show
+11.34 42.52 moveto
+(A) dup stringwidth pop neg -2.67 rmoveto show
 
 % Marking point O by circle
-newpath 42,52 42,52 1,13 0,00 360,00 arc 
+newpath 42.52 42.52 1.13 0.00 360.00 arc 
 stroke
-42,52 39,68 moveto
-(O) dup stringwidth pop 2 div neg -5,33 rmoveto show
+42.52 39.68 moveto
+(O) dup stringwidth pop 2 div neg -5.33 rmoveto show
 
 % Drawing circle k
-newpath 42,52 42,52 28,35 0,00 57,71 arc 
+newpath 42.52 42.52 28.35 0.00 57.71 arc 
 stroke
-newpath 42,52 42,52 28,35 62,29 177,71 arc 
+newpath 42.52 42.52 28.35 62.29 177.71 arc 
 stroke
-newpath 42,52 42,52 28,35 -177,71 0,00 arc 
+newpath 42.52 42.52 28.35 -177.71 0.00 arc 
 stroke
 
 % Marking point B by circle
-newpath 56,69 67,07 1,13 0,00 360,00 arc 
+newpath 56.69 67.07 1.13 0.00 360.00 arc 
 stroke
-56,69 69,90 moveto
+56.69 69.90 moveto
 (B) dup stringwidth pop 2 div neg 0 rmoveto show
 
 % Marking point S by circle
-newpath 35,43 54,79 1,13 0,00 360,00 arc 
+newpath 35.43 54.79 1.13 0.00 360.00 arc 
 stroke
-33,45 56,78 moveto
+33.45 56.78 moveto
 (S) dup stringwidth pop neg 0 rmoveto show
 
 % Drawing circle l
-newpath 42,52 42,52 14,17 0,00 115,42 arc 
+newpath 42.52 42.52 14.17 0.00 115.42 arc 
 stroke
-newpath 42,52 42,52 14,17 124,58 360,00 arc 
+newpath 42.52 42.52 14.17 124.58 360.00 arc 
 stroke
 
 % Drawing segment A B
-newpath 15,15 43,09 moveto 19,30 11,14 rlineto stroke
-newpath 36,41 55,36 moveto 19,30 11,14 rlineto stroke
+newpath 15.15 43.09 moveto 19.30 11.14 rlineto stroke
+newpath 36.41 55.36 moveto 19.30 11.14 rlineto stroke
+
+% Drawing segment O A
+newpath 41.39 42.52 moveto -26.08 0.00 rlineto stroke
+
+% Drawing segment O S
+newpath 41.95 43.50 moveto -5.95 10.31 rlineto stroke
 showpage
 %EOF
