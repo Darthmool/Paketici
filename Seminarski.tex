@@ -2,8 +2,8 @@
 
 \usepackage[top= 27mm, bottom=27mm, left=25mm, right=25mm]{geometry}
 
-\usepackage[OT1, OT2]{fontenc}
 \usepackage[english,serbian]{babel}
+\usepackage[OT1, OT2]{fontenc}
 \usepackage{epstopdf}
 \usepackage{graphicx}
 \usepackage{enumerate}
@@ -59,6 +59,7 @@ Broj indeksa: 4/2013
 
 
 %sadrzaj
+\def\contentsname{Sadrz1aj}
 \tableofcontents
 
 \newpage
@@ -374,7 +375,7 @@ Vidimo da je za $k = 7$ koeficijent najvec1i i iznosi 15360. \textbf{Odgovor je 
 \caption{Grafik funnkcije $f(x) = |x-3| -1$}
 \end{center}
 \end{figure}
-\newpage
+
 \par Zatim nacrtajmo apsolutnu vrednost gornje funkcije to jest nacrtajmo $||x-3 | - 1|$, to se radi tako shto se sve ono shto je ispod x-ose simetrichno preslika iznad nje.
 \begin{figure}[h!]
 \begin{center}
@@ -565,7 +566,7 @@ $, $\frac{3\pi}{4} = 2.305$, $\pi = 3.14$, $2\pi = 6.28$, $2\pi + \frac{\pi}{4} 
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{sl5.eps}
+\includegraphics[width=0.3\textwidth]{sl5.eps}
 \caption{Slika uz zadatak}
 \end{center}
 \end{figure}
@@ -578,7 +579,7 @@ $, $\frac{3\pi}{4} = 2.305$, $\pi = 3.14$, $2\pi = 6.28$, $2\pi + \frac{\pi}{4} 
 \end{center}
 \end{figure}
 Zbir povrshina ovih trouglova jednak je povrshini chetvorougla $ABCD$, dakle $90\mathrm{\ cm}^2$. Ovi trouglovi su pravougli i svima je kateta koja sadrzhi teme $S$ jednaka poluprechniku $r$ upisane kruzhnice. Oznachimo $AM=AQ=x$, $BM=BN=y$, $CN=CP=z$, $DP=DQ=t$ (tangentne duzhi iz iste tachke su jednake). Tada je:
-\par $90=\frac{r \cdot x}{2}+\frac{r \cdot y}{2}+\frac{r \cdot y}{2}+\frac{r \cdot y}{2}+\frac{r \cdot z}{2}+\frac{r \cdot z}{2}+\frac{r \cdot t}{2}+\frac{r \cdot t}{2}=\frac{r}{2}\cdot(2x+2y+2z+2t)=r\cdot(x+y+z+t)$.
+\par $90=\frac{r \cdot x}{2}+\frac{r \cdot y}{2}+\frac{r \cdot y}{2}+\frac{r \cdot z}{2}+\frac{r \cdot z}{2}+\frac{r \cdot t}{2}+\frac{r \cdot t}{2}+\frac{r \cdot x}{2}=\frac{r}{2}\cdot(2x+2y+2z+2t)=r\cdot(x+y+z+t)$.
 \par Primetimo da je $x+y+z+t=AB+CD=15$, pa je $90=r\cdot 15$, odakle sledi da je $r=6\mathrm{\ cm}$. \textbf{Odgovor je pod $A$.}
 
 \item Neka je $R$ poluprechnik vec1eg, a $r$ poluprechnik manjeg kruga. Tetiva $AB$ je tangenta na manji krug, pa sledi da je u dodirnoj tachki $S$ normalna na poluprechnik $OS$. Poshto je $OA=OB=R$, sledi da je trougao $\triangle OAB$ jednakokraki. Prema tome, $S$ je sredishte stranice $AB$.
@@ -611,8 +612,9 @@ U pravouglom trouglu $\triangle SOA$ imamo da je $OA^2=OS^2+SA^2$ na osnovu Pita
 \begin{thebibliography}{9}
 %Literatura
 
-\bibitem{lit1} Ognjanovic1 Srdjan, {\it Matematika 4+}, Krug Beograd
-\bibitem{lit2} \href{https://www.wolframalpha.com/}{Volfram alfa - za proveru rechuna}
+\bibitem{lit1} Ognjanovic1 Srdjan, {\it Matematika {\Lat 4+}}, Krug Beograd
+\bibitem{lit2} \href{https://www.wolframalpha.com/}{Volfram alfa} - za proveru rechuna
+\bibitem{lit3} \href{http://www.matf.bg.ac.rs/files/prijemni_jun_2016_.pdf}{Zadaci sa prijemnog}
 
 \end{thebibliography}
 

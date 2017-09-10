@@ -8,4 +8,4 @@ Seminarski.dvi: Seminarski.tex
 .PHONY: clean
 
 clean:
-	del Seminarski.aux Seminarski.log Seminarski.dvi Seminarski.ps
+	rm Seminarski.aux Seminarski.log Seminarski.dvi Seminarski.ps

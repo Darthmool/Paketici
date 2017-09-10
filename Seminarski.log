@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.9.8)  10 SEP 2017 10:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.9.8)  10 SEP 2017 11:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -54,22 +54,6 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.def
-File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/ot2enc.def
-File: ot2enc.def 2001/08/11 v3.3a Cyrillic encoding definition file
-)
-LaTeX Font Info:    Try loading font information for OT2+cmr on input line 105.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
-File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
-))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/02/24 3.9q The Babel package
 
@@ -90,6 +74,22 @@ File: babel.def 2016/02/24 3.9q Babel common definitions
 (/usr/share/texlive/texmf-dist/tex/generic/babel-serbian/serbian.ldf
 Language: serbian 2005/03/31 v1.0d Serbocroatian support from the babel system
 Package babel Info: Making " an active character on input line 73.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.def
+File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/ot2enc.def
+File: ot2enc.def 2001/08/11 v3.3a Cyrillic encoding definition file
+)
+LaTeX Font Info:    Try loading font information for OT2+cmr on input line 105.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
+File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
@@ -489,42 +489,44 @@ File: sl2.eps Graphic file (type eps)
  <sl2.eps>
 File: sl3.eps Graphic file (type eps)
  <sl3.eps>
-[8] [9]
+[8]
 File: sl4.eps Graphic file (type eps)
- <sl4.eps> [10] [11] [12]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 553.
+ <sl4.eps> [9] [10] [11] [12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 554.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 553.
- [13]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 554.
 File: sl5.eps Graphic file (type eps)
  <sl5.eps>
 File: sl8.eps Graphic file (type eps)
+ <sl8.eps>
 
-<sl8.eps> [14]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13]
 File: sl7.eps Graphic file (type eps)
- <sl7.eps> [15] [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 619.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 619.
+ <sl7.eps> [14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 621.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 621.
  (./Seminarski.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 619.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 619.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 621.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 621.
 Package rerunfilecheck Info: File `Seminarski.out' has not changed.
 (rerunfilecheck)             Checksum: 44B7168677B6720F42341851C52175D2;177.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 619.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 621.
  ) 
 Here is how much of TeX's memory you used:
- 7011 strings out of 493868
- 99461 string characters out of 6157423
- 211130 words of memory out of 5000000
- 10214 multiletter control sequences out of 15000+600000
- 16001 words of font info for 54 fonts, out of 8000000 for 9000
+ 7012 strings out of 493868
+ 99472 string characters out of 6157423
+ 211100 words of memory out of 5000000
+ 10215 multiletter control sequences out of 15000+600000
+ 16041 words of font info for 54 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
  42i,8n,28p,1005b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Seminarski.dvi (18 pages, 79028 bytes).
+Output written on Seminarski.dvi (17 pages, 78956 bytes).
